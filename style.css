@@ -1,0 +1,27 @@
+body{
+    background-color: grey;
+}
+
+h1{
+    color:blanchedalmond;
+}
+
+.header-h1{
+    color: silver;
+}
+
+.header-h2{
+    color:darkgray;
+   }
+
+.header-h3{
+    color:blue;
+}   
+
+section{
+    background-color: rgb(255, 255, 255);
+}
+
+footer{
+    color: blanchedalmond;
+}
