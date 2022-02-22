@@ -40,6 +40,11 @@ section {
 .mian_column{
   grid-area: main_column;
 }
+.photo{
+  display: block;
+  max-width: 100%;
+  
+}
 
 .aside_column{
   grid-area: aside_column;

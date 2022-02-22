@@ -6,8 +6,8 @@ console.log(`siema! Nazywam się ${firstName} i mam ${age} lat`);
 
 alert(`Siema! Nazywam się ${firstName} i mam ${age} lat`);
 
-const heading = document.querySelector(".header-h1--js");
-heading.innerHTML = "test wpisu przes JS";
+
+
 
 const hello = (firstName, age) => {
   console.log(
@@ -16,3 +16,13 @@ const hello = (firstName, age) => {
 };
 
 hello("Rafał", 28);
+
+const button=document.querySelector('.action--js');
+console.log(button)
+
+button.addEventListener('click',() => {
+const heading = document.querySelector(".header-h1--js");
+heading.innerHTML = "test wpisu przez JS";
+heading.classList.toggle('klasa-z-js')
+});
+
