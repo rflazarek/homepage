@@ -44,6 +44,24 @@ h1 {
   color: blue;
 }
 
+.article__header-h3::before{
+  content: " ";
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: #2073c7;
+  border-radius: 50%;
+}
+
+.article__header-h3::after{
+  content: " ";
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: #2073c7;
+  border-radius: 50%;
+}
+
 section {
   background-color: rgb(255, 255, 255);
 }
